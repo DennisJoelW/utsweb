@@ -5,7 +5,14 @@
 body
 {
     background-color: white;
-    height: 1000px; 
+    height: 1300px; 
+    min-height: 1300px;
+}
+
+.container
+{
+    width: 1300px;
+    max-width: 1300px;
 }
 
 
@@ -13,7 +20,7 @@ body
 nav
 {
     background-color: white;
-    width: 1600px;
+    width: 1536px;
     height: 100px;
     line-height: 100px;
     position: relative;
@@ -69,7 +76,8 @@ nav ul li ul
 {
     display: inline-block;
     position: absolute;
-    left: 43%;
+    float: left;
+    left: 44.5%;
     line-height: 50px;
     padding-top: 24px;
 }
@@ -85,7 +93,8 @@ nav ul li ul
 {
     display: inline-block;
     position: absolute;
-    left: 48%;
+    float: left;
+    left: 49.5%;
     line-height: 50px;
     padding-top: 24px;
 }
@@ -196,7 +205,6 @@ nav ul li ul li a
     position: relative;
     text-align: center;
     color: white;
-    
 }
 
 .centered 
@@ -243,7 +251,7 @@ nav ul li ul li a
 .mokemana
 {   
     float: left ;
-    width: 100%;
+    width: 1536px;
     text-align: center;
     height: 145px;
     background-color:rgb(30, 30, 47);
@@ -317,7 +325,6 @@ select
 .popular .pop
 {   
     float: left;
-    text-align: center;
     font-size: 38px;
     padding-left: 600px;
     font-family: "Monaco","monospace";
@@ -582,7 +589,7 @@ input[type="submit"]:hover
 .subs
 {
     float: left;
-    width: 1600px;
+    width: 1536px;
     height: 200px;
     background-color: rgb(66, 66, 89);
     margin-top: -90px;
@@ -888,7 +895,7 @@ input[type="submit"]:hover
 
 .vidweb
 {
-    width: 1570px;
+    width: 1536px;
     height: 440px;
     float: left;
     position: relative;
@@ -908,7 +915,7 @@ input[type="submit"]:hover
 {
     margin-top: -440px;
     margin-left: -40px;
-    width: 1570px;
+    width: 100%;
     height: 890px;
     clip-path: inset(200px 0px 260px 0px);
     float: left;
@@ -916,10 +923,9 @@ input[type="submit"]:hover
 
 }
 
-
 .vidweb a .gplay
 {
-    z-index: 2;
+    z-index: 1;
     width: 60px;
     height: 60px;
     float: left;
@@ -932,7 +938,7 @@ input[type="submit"]:hover
 /* ====================== BENEFITS ========================= */
 .benefits
 {
-    width: 1500px;
+    width: 1536px;
     height: 400px;
     margin-top: -240px;
     margin-left: 90px;
@@ -1119,7 +1125,7 @@ input[type="submit"]:hover
 .recent
 {
     float: left;
-    width: 100%;
+    width: 1536px;
     height: 580px;
     margin-top: 130px;
     margin-left: -10px;
@@ -1127,7 +1133,7 @@ input[type="submit"]:hover
 }
 .recent h1
 {
-    text-align: center;
+    margin-left: 560px;
     margin-bottom: 40px;
     margin-top: 50px;
 }
@@ -1247,7 +1253,7 @@ input[type="submit"]:hover
 footer
 {
     float: left;
-    width: 100%;
+    width: 1328px;
     height: 510px;
     padding-left: 200px;
     background-color: rgb(25, 25, 57);
