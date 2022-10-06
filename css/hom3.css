@@ -1,6 +1,10 @@
 * {padding: 0; margin: 0;}
 
-
+.container
+{
+    width: 1536px;
+    max-width: 1536px;
+}
 
 body
 {
@@ -889,7 +893,7 @@ input[type="submit"]:hover
 
 .vidweb
 {
-    width: 1570px;
+    width: 1536px;
     height: 440px;
     float: left;
     position: relative;
@@ -909,7 +913,7 @@ input[type="submit"]:hover
 {
     margin-top: -440px;
     margin-left: -40px;
-    width: 1570px;
+    width: 1536px;
     height: 890px;
     clip-path: inset(200px 0px 260px 0px);
     float: left;

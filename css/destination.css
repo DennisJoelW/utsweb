@@ -2,10 +2,16 @@
 
 /* ======================== MENU =======================  */
 
+.container
+{
+    width: 1536px;
+    max-width: 1536px;
+}
+
 nav
 {
     background-color: white;
-    width: 1600px;
+    width: 1536px;
     height: 100px;
     line-height: 100px;
     position: relative;
@@ -61,7 +67,7 @@ nav ul li ul
 {
     display: inline-block;
     position: absolute;
-    left: 43%;
+    left: 44.5%;
     line-height: 50px;
     padding-top: 24px;
 }
@@ -77,7 +83,7 @@ nav ul li ul
 {
     display: inline-block;
     position: absolute;
-    left: 48%;
+    left: 49.5%;
     line-height: 50px;
     padding-top: 24px;
 }
@@ -608,7 +614,7 @@ select
 .subs
 {
     float: left;
-    width: 1600px;
+    width: 100%;
     height: 200px;
     background-color: rgb(66, 66, 89);
     margin-top: 100px;
@@ -801,7 +807,7 @@ select
 footer
 {
     float: left;
-    width: 100%;
+    width: 1320px;
     height: 510px;
     padding-left: 200px;
     background-color: rgb(25, 25, 57);

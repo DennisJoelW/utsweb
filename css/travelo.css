@@ -5,14 +5,12 @@
 body
 {
     background-color: white;
-    height: 1300px; 
-    min-height: 1300px;
 }
 
 .container
 {
-    width: 1300px;
-    max-width: 1300px;
+    width: 1536px;
+    max-width: 1536px;
 }
 
 
@@ -227,7 +225,7 @@ nav ul li ul li a
 .bali
 {
     float: left;
-    width: 100%;
+    width: 1536px;
     height: 100%;
     margin-left: -40px;
     margin-top: -35px;

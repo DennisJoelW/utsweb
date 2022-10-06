@@ -2,6 +2,11 @@
 
 /* ======================== MENU =======================  */
 
+.container
+{
+    width: 1536px;
+    max-width: 1536px;
+}
 nav
 {
     background-color: white;
@@ -947,7 +952,7 @@ input[name="search"]:hover
 footer
 {
     float: left;
-    width: 100%;
+    width: 1320px;
     height: 510px;
     padding-left: 200px;
     background-color: rgb(25, 25, 57);
