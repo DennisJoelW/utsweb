@@ -245,7 +245,7 @@ nav ul li ul li a
 .mokemana
 {   
     float: left ;
-    width: 100%;
+    width: 1536px;
     text-align: center;
     height: 145px;
     background-color:rgb(30, 30, 47);
@@ -584,7 +584,7 @@ input[type="submit"]:hover
 .subs
 {
     float: left;
-    width: 1600px;
+    width: 1536px;
     height: 200px;
     background-color: rgb(66, 66, 89);
     margin-top: -90px;
@@ -1122,7 +1122,7 @@ input[type="submit"]:hover
 .recent
 {
     float: left;
-    width: 100%;
+    width: 1536px;
     height: 580px;
     margin-top: 130px;
     margin-left: -10px;
@@ -1250,7 +1250,7 @@ input[type="submit"]:hover
 footer
 {
     float: left;
-    width: 100%;
+    width: 1325px;
     height: 510px;
     padding-left: 200px;
     background-color: rgb(25, 25, 57);
